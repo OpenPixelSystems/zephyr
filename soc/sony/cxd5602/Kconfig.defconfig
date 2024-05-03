@@ -1,0 +1,12 @@
+# Copyright (c) 2024 Open Pixel Systems
+# SPDX-License-Identifier: Apache-2.0
+
+if SOC_SONY_CXD56XX
+
+config NUM_IRQS
+	default 128
+
+config SYS_CLOCK_HW_CYCLES_PER_SEC
+	default 24000000
+
+endif # SOC_SONY_CXD56XX
